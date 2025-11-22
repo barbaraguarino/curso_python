@@ -1,5 +1,5 @@
 """
-D03: Crie um script Python que leia dois números e tenta
+E003: Crie um script Python que leia dois números e tenta
 mostrar a soma ente eles.
 """
 
