@@ -2,7 +2,7 @@
 
 Este repositório serve como meu **diário de bordo digital** para documentar e rastrear meu progresso no aprendizado e domínio da linguagem **Python**.
 
-## 🚀 O que você encontrará aqui:
+## O que você encontrará aqui
 
 * **Cursos & Tutoriais:** Implementações de exercícios e notas de aulas de cursos online ou materiais de estudo específicos.
     * *Exemplo de estrutura:* `course_name/module_name/aula/aula_name.py`
