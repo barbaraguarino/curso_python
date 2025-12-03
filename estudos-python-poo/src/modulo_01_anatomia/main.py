@@ -1,6 +1,15 @@
 # from livro import Livro
 from carro import Carro
 
+def malhar_carro(carro, nova_cor):
+    print(f"--- Entrando na oficina com o {carro.marca} ---")
+    print(f"Cor atual: {carro.cor}")
+
+    carro.cor = nova_cor
+    print(f"O carro foi pintado de {nova_cor} dentro da função.")
+
+    print("\n--- Saindo da oficina ---")
+
 if __name__ == '__main__':
 
     """
@@ -14,6 +23,7 @@ if __name__ == '__main__':
     print(livro_3.descrever())
     """
 
+    """
     carro_1 = Carro("Toyota Corolla", "Prata")
     carro_2 = Carro("Honda Civic", "Preto")
 
@@ -26,3 +36,10 @@ if __name__ == '__main__':
     print(f"O carro 2 tem {carro_2.quantidade_rodas} rodas.")
 
     print(f"O padrão da fábrica é: {Carro.quantidade_rodas} rodas.")
+    """
+
+    meu_fusca = Carro("Fusca", "Azul")
+    print(f"1. Cor ORIGINAL do Fusca: {meu_fusca.cor}")
+
+    malhar_carro(meu_fusca, "Amarelo")
+    print(f"2. Cor do Fusca APÓS a função: {meu_fusca.cor}")
