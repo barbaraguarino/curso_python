@@ -1,18 +1,11 @@
-from pessoa import Pessoa
+from livro import Livro
 
 if __name__ == '__main__':
-    # Instanciando dois objetos diferentes (ocupam lugares diferentes na memória)
-    pessoa_a = Pessoa()
-    pessoa_b = Pessoa()
+    livro_1 = Livro("O Senhor dos Anéis", "J.R.R. Tolkien", 1954)
+    livro_2 = Livro("1984", "George Orwell", 1949)
+    livro_3 = Livro("Dom Casmurro", "Machado de Assis", 1899)
 
-    # Chamada do método: O Python passa 'pessoa_a' para o 'self' automaticamente
-    print(pessoa_a.saudar())
-
-    # Chamada do método: O Python passa 'pessoa_b' para o 'self' automaticamente
-    print(pessoa_b.saudar())
-
-    # PROVA REAL:
-    # O que acontece se tentarmos chamar o método pela Classe passando o objeto manualmente?
-    # Isso é exatamente o que o Python faz por trás dos panos:
-    print("\n--- Chamada Manual (O que o Python faz internamente) ---")
-    print(Pessoa.saudar(pessoa_a))
+    print("--- Meus Livros ---")
+    print(f"Livro 1: {livro_1.titulo}, escrito por {livro_1.autor} em {livro_1.ano}")
+    print(f"Livro 2: {livro_2.titulo}, escrito por {livro_2.autor} em {livro_2.ano}")
+    print(f"Livro 3: {livro_3.titulo}, escrito por {livro_3.autor} em {livro_3.ano}")
