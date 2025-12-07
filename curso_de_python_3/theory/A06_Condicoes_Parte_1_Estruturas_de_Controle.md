@@ -1,4 +1,4 @@
-## Introdução
+# Condições (Parte 1): Estruturas de Controle
 
 Até o momento, todos os algoritmos estudados seguiam uma **Estrutura Sequencial**, onde os comandos são executados rigorosamente de cima para baixo, um após o outro, sem desvios. A partir desde ponto, introduzimos as **Estruturas Condicionais**, que permitem ao programa “tomar decisões” baseadas em testes lógicos, bifurcando o fluxo de execução.
 

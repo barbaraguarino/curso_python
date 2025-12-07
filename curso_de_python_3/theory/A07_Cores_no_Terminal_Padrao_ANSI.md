@@ -1,4 +1,4 @@
-## Introdução
+# Cores no Terminal (Padrão ANSI)
 
 Até o momento, nossos programas exibiam apenas texto em branco (ou cinza) sobre um fundo preto. Para melhorar a experiência do usuário e destacar informações, utilizaremos as **Sequências de Escape ANSI** (ANSI Escape Sequences).
 

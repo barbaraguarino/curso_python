@@ -1,4 +1,4 @@
-## Introdução
+# Utilizando Módulos
 
 Até agora, utilizamos apenas as funcionalidades “de fábrica” (built-in) do Python. Para expandir as capacidades da linguagem — como realizar cálculos matemáticos avançados, gerar números aleatórios ou interagir com o sistema operacional — utilizamos **módulos**. 
 

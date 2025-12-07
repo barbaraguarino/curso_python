@@ -1,4 +1,4 @@
-## Introdução
+# Operadores Aritméticos
 
 Este capítulo aborda a capacidade matemática nativa do Python, fundamental para processamento de dados, cálculos científicos e lógica de programação.
 

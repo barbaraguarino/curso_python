@@ -1,4 +1,4 @@
-## Introdução
+# Fundamentos de Entrada, Saída e Manipulação de Dados
 
 Este capítulo aborda as primitivas fundamentais para integração com o usuário via terminal, declaração de variáveis e a natureza da tipagem dinâmica no Python em operações básicas.
 

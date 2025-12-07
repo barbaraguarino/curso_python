@@ -1,4 +1,4 @@
-## Introdução
+# Tipos Primitivos e Saída de Dados
 
 Este capítulo aborda a tipagem de dados, a conversão explícita (casting) e métodos avançados de formação de saída e validação de string. 
 

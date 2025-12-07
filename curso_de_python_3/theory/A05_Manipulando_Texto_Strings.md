@@ -1,4 +1,4 @@
-## Introdução
+# Manipulando Texto (Strings)
 
 Em Python, todo texto é tratado como uma **Cadeira de Caracteres** (`strings`). 
 
