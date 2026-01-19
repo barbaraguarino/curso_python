@@ -20,24 +20,24 @@ O objetivo aqui é entender a sintaxe básica e como o Python enxerga objetos, s
 
 Aqui você aprende a proteger seus dados usando as convenções do Python ("nós somos todos adultos aqui") e propriedades.
 
-- [ ]  **Convenções de Visibilidade (`_` e `__`):** Entenda que `_variavel` é um aviso de "uso interno/protected" e `__variavel` ativa o *Name Mangling* (o Python altera o nome da variável para dificultar o acesso).
-- [ ]  **Exercício 05**: Crie uma classe `Cofre`. Tente criar um atributo com `_` e outro com `__`. Tente acessar ambos de fora da classe e veja o que acontece (e o erro que ocorre no segundo caso).
-- [ ]  **O Decorator `@property` (Getters):** Aprenda a criar métodos que são acessados como se fossem atributos, permitindo lógica (cálculos) ao ler um valor.
-- [ ]  **Exercício 06**: Crie uma classe `Retangulo` com `largura` e `altura`. Crie uma `@property` chamada `area` que calcula e retorna a área automaticamente, sem precisar armazenar esse valor.
-- [ ]  **Setters Pythonicos (`@var.setter`):** Aprenda a validar dados no momento da atribuição sem criar métodos `setValor()`.
-- [ ]  **Exercício 07**: Crie uma classe `Produto` com um preço. Use o setter para impedir que o preço seja negativo (lance um `ValueError` se for menor que zero).
+- [x]  **Convenções de Visibilidade (`_` e `__`):** Entenda que `_variavel` é um aviso de "uso interno/protected" e `__variavel` ativa o *Name Mangling* (o Python altera o nome da variável para dificultar o acesso).
+- [x]  **Exercício 05**: Crie uma classe `Cofre`. Tente criar um atributo com `_` e outro com `__`. Tente acessar ambos de fora da classe e veja o que acontece (e o erro que ocorre no segundo caso).
+- [x]  **O Decorator `@property` (Getters):** Aprenda a criar métodos que são acessados como se fossem atributos, permitindo lógica (cálculos) ao ler um valor.
+- [x]  **Exercício 06**: Crie uma classe `Retangulo` com `largura` e `altura`. Crie uma `@property` chamada `area` que calcula e retorna a área automaticamente, sem precisar armazenar esse valor.
+- [x]  **Setters Pythonicos (`@var.setter`):** Aprenda a validar dados no momento da atribuição sem criar métodos `setValor()`.
+- [x]  **Exercício 07**: Crie uma classe `Produto` com um preço. Use o setter para impedir que o preço seja negativo (lance um `ValueError` se for menor que zero).
 
 ### 🧪 Projetos:
 
-- [ ]  **Conta Bancária Segura:** Implemente uma classe `Conta` com saldo privado (`__saldo`). Use `@property` para ver o saldo e métodos `depositar` e `sacar` que validam se há fundos suficientes.
-- [ ]  **Sistema de Login:** Crie uma classe `Usuario` que armazena a senha de forma privada. Use um setter para validar se a nova senha tem no mínimo 8 caracteres antes de salvar.
+- [x]  **Conta Bancária Segura:** Implemente uma classe `Conta` com saldo privado (`__saldo`). Use `@property` para ver o saldo e métodos `depositar` e `sacar` que validam se há fundos suficientes.
+- [x]  **Sistema de Login:** Crie uma classe `Usuario` que armazena a senha de forma privada. Use um setter para validar se a nova senha tem no mínimo 8 caracteres antes de salvar.
 
 ## 🧬 Módulo 3: Herança e Polimorfismo
 
 Como reutilizar código e fazer objetos diferentes responderem aos mesmos comandos.
 
-- [ ]  **Herança Simples e `super()`:**Aprenda a sintaxe `class Filha(Mae):` e como usar `super().__init__()` para aproveitar o construtor da classe pai.
-- [ ]  **Exercício 08**: Crie uma classe `Funcionario` (nome, salario base). Crie uma classe filha `Gerente` que herda de funcionário e adiciona um atributo `bonus`.
+- [x]  **Herança Simples e `super()`:**Aprenda a sintaxe `class Filha(Mae):` e como usar `super().__init__()` para aproveitar o construtor da classe pai.
+- [x]  **Exercício 08**: Crie uma classe `Funcionario` (nome, salario base). Crie uma classe filha `Gerente` que herda de funcionário e adiciona um atributo `bonus`.
 - [ ]  **Polimorfismo e Sobrescrita de Métodos:** Entenda como uma classe filha pode alterar completamente o comportamento de um método herdado da classe pai.
 - [ ]  **Exercício 09**: Na classe `Funcionario`, crie um método `calcular_pagamento()`. Na classe `Gerente`, sobrescreva esse método para retornar `salario + bonus`.
 - [ ]  **Duck Typing:** "Se anda como pato e grasna como pato, é pato". Entenda que o Python não liga para o tipo do objeto, apenas se ele tem o método que está sendo chamado.
