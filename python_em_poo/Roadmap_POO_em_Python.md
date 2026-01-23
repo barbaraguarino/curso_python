@@ -38,8 +38,8 @@ Como reutilizar código e fazer objetos diferentes responderem aos mesmos comand
 
 - [x]  **Herança Simples e `super()`:**Aprenda a sintaxe `class Filha(Mae):` e como usar `super().__init__()` para aproveitar o construtor da classe pai.
 - [x]  **Exercício 08**: Crie uma classe `Funcionario` (nome, salario base). Crie uma classe filha `Gerente` que herda de funcionário e adiciona um atributo `bonus`.
-- [ ]  **Polimorfismo e Sobrescrita de Métodos:** Entenda como uma classe filha pode alterar completamente o comportamento de um método herdado da classe pai.
-- [ ]  **Exercício 09**: Na classe `Funcionario`, crie um método `calcular_pagamento()`. Na classe `Gerente`, sobrescreva esse método para retornar `salario + bonus`.
+- [x]  **Polimorfismo e Sobrescrita de Métodos:** Entenda como uma classe filha pode alterar completamente o comportamento de um método herdado da classe pai.
+- [x]  **Exercício 09**: Na classe `Funcionario`, crie um método `calcular_pagamento()`. Na classe `Gerente`, sobrescreva esse método para retornar `salario + bonus`.
 - [ ]  **Duck Typing:** "Se anda como pato e grasna como pato, é pato". Entenda que o Python não liga para o tipo do objeto, apenas se ele tem o método que está sendo chamado.
 - [ ]  **Exercício 10**: Crie uma função `emitir_som(animal)` que chama `animal.fazer_som()`. Passe para ela objetos de classes totalmente distintas (ex: `Cachorro` e `Carro`), desde que ambos tenham o método `fazer_som`.
 
